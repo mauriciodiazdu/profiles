@@ -3,14 +3,30 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+// Firebase
+import {environment} from '../environments/environment';
+import {AngularFireModule} from 'angularfire2';
+import {AngularFireDatabaseModule} from 'angularfire2/database';
+
+// components
+import { ProfilesComponent } from './components/profiles/profiles.component';
+
+// services
+import { TprofilService } from './services/tprofil.service';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProfilesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule
   ],
-  providers: [],
+  providers: [
+    TprofilService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

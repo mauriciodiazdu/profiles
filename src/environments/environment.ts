@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase : {
+    apiKey: 'AIzaSyDEGIkJguKl4MAugX8hcBCGQhxwA8GrrZA',
+    authDomain: 'metallleichtbau.firebaseapp.com',
+    databaseURL: 'https://metallleichtbau.firebaseio.com',
+    projectId: 'metallleichtbau',
+    storageBucket: 'metallleichtbau.appspot.com',
+    messagingSenderId: '773120468366'
+  }
 };
 
 /*
