@@ -10,7 +10,7 @@ export const HeaProfiles = {
       d: 56,
       ASteg: 7.56,
       A: 21.24,
-      G: 16.67
+      G: 16.68
       },
       {
       HEA: 120,
