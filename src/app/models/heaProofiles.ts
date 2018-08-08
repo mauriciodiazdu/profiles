@@ -10,7 +10,7 @@ export const HeaProfiles = {
       d: 56,
       ASteg: 7.56,
       A: 21.24,
-      G: 16.68
+      G: 16.67
       },
       {
       HEA: 120,
@@ -22,7 +22,7 @@ export const HeaProfiles = {
       d: 74,
       ASteg: 8.46,
       A: 25.34,
-      G: 19.89
+      G: 19.88
       }
   ]
 };
